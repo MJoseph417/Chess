@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mjs2w6chessf21.AboutController">
+   <children>
+      <Label layoutX="32.0" layoutY="21.0" prefHeight="199.0" prefWidth="537.0" style="-fx-background-color: transparent;" text="Chess 2021 was created by Matthew Schutz as a way to play a beloved game between friends.  In order to play just click on a piece and select where you would like to move it to.  If you have never played chess before, please refer to Chess.com to gain a basic understanding of how the pieces work.  Also, never forget that the most important rule is to have fun!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnToGame" layoutX="196.0" layoutY="260.0" mnemonicParsing="false" onAction="#returnToGame" text="Return to game!">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
